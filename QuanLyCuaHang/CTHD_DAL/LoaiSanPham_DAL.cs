@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL
+namespace CTHD_DAL
 {
-    public class HangHoa_DAL
+    class LoaiSanPham_DAL
     {
     }
 }

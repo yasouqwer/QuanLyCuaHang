@@ -9,17 +9,17 @@ namespace DTO
     class NhanVien_DTO
     {
         #region fields
-        private string tenNV, gioiTinhNV;
-        private int canCuocNV, soDienThoaiNV, maNV;
-        private DateTime ngaySinhNV;
+        private string tenNV;
+        private int soDienThoaiNV, maNV, luongNV;
+       
         #endregion
         #region properties
         public string TenNV { get => tenNV; set => tenNV = value; }
-        public string GioiTinhNV { get => gioiTinhNV; set => gioiTinhNV = value; }
-        public int CanCuocNV { get => canCuocNV; set => canCuocNV = value; }
+       
         public int SoDienThoaiNV { get => soDienThoaiNV; set => soDienThoaiNV = value; }
         public int MaNV { get => maNV; set => maNV = value; }
-        public DateTime NgaySinhNV { get => ngaySinhNV; set => ngaySinhNV = value; }
+     
+        public int LuongNV { get => luongNV; set => luongNV = value; }
         #endregion
     }
 }

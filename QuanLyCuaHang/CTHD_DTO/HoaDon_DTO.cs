@@ -9,13 +9,16 @@ namespace DTO
     class HoaDon_DTO
     {
         #region fields
-        private int maHD, maNV, maKH;
+        private int soHD, maNV, maKH, triGia;
+        DateTime ngayHoadon;
         #endregion
 
         #region properties
-        public int MaHD { get => maHD; set => maHD = value; }
+        public int SoHD { get => soHD; set => soHD = value; }
         public int MaNV { get => maNV; set => maNV = value; }
         public int MaKH { get => maKH; set => maKH = value; }
+        public int TriGia { get => triGia; set => triGia = value; }
+        public DateTime NgayHoadon { get => ngayHoadon; set => ngayHoadon = value; }
         #endregion
     }
 }
