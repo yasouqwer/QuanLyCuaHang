@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyCuaHangApp", "QuanLyCuaHangApp\QuanLyCuaHangApp.csproj", "{1CE3AE36-34CF-4C3B-A7DF-5F8BCBBF4993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{5421FE37-B3A0-412C-AC92-08BB2E24CB26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO_LAYER", "DTO_LAYER", "{0C4AEFE7-539F-43FE-86E0-E11C239C408D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL_LAYER", "DAL_LAYER", "{870FBCE1-8CDA-4602-A943-D9B5DCA896CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpWPF", "SignUpWPF\SignUpWPF.csproj", "{1509CF4D-5735-4C3A-AA43-DADE65FA2DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CE3AE36-34CF-4C3B-A7DF-5F8BCBBF4993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE3AE36-34CF-4C3B-A7DF-5F8BCBBF4993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE3AE36-34CF-4C3B-A7DF-5F8BCBBF4993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE3AE36-34CF-4C3B-A7DF-5F8BCBBF4993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1509CF4D-5735-4C3A-AA43-DADE65FA2DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1509CF4D-5735-4C3A-AA43-DADE65FA2DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1509CF4D-5735-4C3A-AA43-DADE65FA2DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1509CF4D-5735-4C3A-AA43-DADE65FA2DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CE3AE36-34CF-4C3B-A7DF-5F8BCBBF4993} = {5421FE37-B3A0-412C-AC92-08BB2E24CB26}
+		{1509CF4D-5735-4C3A-AA43-DADE65FA2DC6} = {5421FE37-B3A0-412C-AC92-08BB2E24CB26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EAE3512-F0FC-4F30-B7A4-081DC411BF58}
+	EndGlobalSection
+EndGlobal
